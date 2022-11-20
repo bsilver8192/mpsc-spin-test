@@ -1,0 +1,11 @@
+[package]
+name = "mpsc-spin-test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libc = "0.2"
+#crossbeam-channel = "0.5"
+#crossbeam-channel = { git = "https://github.com/crossbeam-rs/crossbeam", rev = "450d237d1546ac135d21f75b61fdf5a944e8421c" }
